@@ -56,7 +56,7 @@ const cards = [
 
 const Ebooks = () => {
   return (
-    <section className="bg-[#f5f7fa] py-16 sm:py-20 md:py-24 px-4 sm:px-8 md:px-12 overflow-hidden">
+    <section className="bg-[#F9C744] py-16 sm:py-20 md:py-24 px-4 sm:px-8 md:px-12 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-12">
         {/* Centered Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#1a1446] text-center leading-tight">

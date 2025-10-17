@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Regret = () => {
   return (
-    <section className="bg-gradient-to-br from-[#0a0f1f] to-[#091327] text-white py-16 px-6 sm:px-10 flex justify-center items-center">
+    <section className="bg-[#0A2D68] text-white py-16 px-6 sm:px-10 flex justify-center items-center">
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -92,7 +92,7 @@ const Regret = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            className="bg-[#facc15] hover:bg-[#fbbf24] text-black font-semibold text-lg px-8 py-3 rounded-full shadow-[0_0_25px_#facc1566] transition-all"
+            className="bg-yellow-500 text-black font-semibold text-lg px-8 py-3 rounded-full shadow-[0_0_25px_#facc1566] transition-all"
           >
             Secure Your Future Now
           </motion.button>

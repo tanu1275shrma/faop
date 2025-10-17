@@ -4,13 +4,13 @@ import { Rocket, DollarSign, Users, ArrowUp } from "lucide-react";
 
 const RapidlyGrowing = () => {
   return (
-    <section className="relative py-20 bg-gradient-to-b from-gray-900 to-gray-950 text-white overflow-hidden">
+    <section className="relative py-20 bg-[#0A2D68] text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Section Title */}
         <h2 className="text-3xl md:text-5xl font-bold mb-3">
-          The Future of <span className="text-orange-400">Outsourcing</span>
+          The Future of <span className="text-yellow-400">Outsourcing</span>
         </h2>
-        <p className="text-gray-300 max-w-2xl mx-auto mb-12 text-sm md:text-base">
+        <p className="text-gray-100 max-w-2xl mx-auto mb-12 text-sm md:text-base">
           Discover why Accounting Outsourcing is the Fastest-Growing Global
           Practice Area
         </p>
@@ -91,7 +91,7 @@ const RapidlyGrowing = () => {
             </div>
 
             {/* Caption */}
-            <p className="mt-6 text-orange-400 font-semibold text-base sm:text-lg md:text-xl">
+            <p className="mt-6 text-yellow-400 font-semibold text-base sm:text-lg md:text-xl">
               Your Career Growth will Boom ↑ with FAOP
             </p>
           </div>
@@ -99,7 +99,7 @@ const RapidlyGrowing = () => {
 
         {/* CTA Button */}
         <div className="mt-12">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold text-base md:text-lg px-8 py-3 rounded-full transition-all shadow-md hover:shadow-orange-400/40">
+          <button className="bg-[#F9C744] text-blue-950 font-extrabold text-base md:text-lg px-8 py-3 rounded-full transition-all shadow-md hover:shadow-orange-400/40">
             Start Your Outsourcing Practice
           </button>
         </div>

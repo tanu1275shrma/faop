@@ -2,18 +2,18 @@ import React from "react";
 
 const Mentor = () => {
   return (
-    <section className="relative bg-blue-200 w-full overflow-hidden">
+    <section className="relative bg-[#0A2D68] w-full overflow-hidden">
       {/* Right dark blue background */}
-      <div className="absolute top-4 bottom-4 right-0 w-[45%] bg-[#12225b] rounded-l-[2rem] hidden md:block"></div>
+      <div className="absolute top-4 bottom-4 right-0 w-[45%] bg-[#F9C744] rounded-l-[2rem] hidden md:block"></div>
 
       <div className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-20">
         {/* Left content */}
         <div className="md:w-1/2 w-full z-10 space-y-6">
-          <h1 className="text-3xl md:text-5xl font-bold leading-snug text-gray-900">
+          <h1 className="text-3xl md:text-5xl font-bold leading-snug text-yellow-500">
             Meet Mentor <br />
-            <span className="text-[#2E57E8]">CA Sidharth Jain</span>
+            <span className="text-white">CA Sidharth Jain</span>
           </h1>
-          <p className="text-gray-600 text-base md:text-lg">
+          <p className="text-gray-100 text-base md:text-lg">
             He is a highly experienced mentor helping students and professionals
             achieve excellence in finance and accounting.
           </p>

@@ -58,10 +58,10 @@ const Process = () => {
   const [activeStep, setActiveStep] = useState(1);
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-20 bg-[#F9C744]">
       <div className="max-w-7xl mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-blue-950 mb-6">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
           Process to Start Your{" "}
           <span className="text-blue-600">Outsourcing Practice Today</span>
         </h2>
@@ -72,9 +72,9 @@ const Process = () => {
 
         {/* Progress Line */}
         <div className="relative flex justify-between items-center max-w-5xl mx-auto mb-12">
-          <div className="absolute top-1/2 left-0 w-full h-[3px] bg-blue-950 transform -translate-y-1/2 z-0" />
+          <div className="absolute top-1/2 left-0 w-full h-[3px] bg-[#0A2D68] transform -translate-y-1/2 z-0" />
           <div
-            className="absolute top-1/2 left-0 h-[3px] bg-blue-950 transform -translate-y-1/2 z-0 transition-all duration-500"
+            className="absolute top-1/2 left-0 h-[3px] bg-[#0A2D68] transform -translate-y-1/2 z-0 transition-all duration-500"
             style={{
               width: `${((activeStep - 1) / (steps.length - 1)) * 100}%`,
             }}
@@ -88,7 +88,7 @@ const Process = () => {
               <div
                 className={`w-10 h-10 rounded-full flex items-center justify-center border-2 ${
                   item.step <= activeStep
-                    ? "bg-blue-950 text-white border-blue-950"
+                    ? "bg-[#0A2D68] text-white border-blue-950"
                     : "bg-white border-gray-300 text-gray-400"
                 } transition-all duration-300`}
               >
@@ -118,7 +118,7 @@ const Process = () => {
               className={`cursor-pointer p-6 rounded-2xl border transition-all duration-500 w-full max-w-[280px]
                 ${
                   item.step === activeStep
-                    ? "bg-blue-950 text-white border-blue-700 shadow-xl scale-105"
+                    ? "bg-[#0A2D68] text-white border-[#0A2D68] shadow-xl scale-105"
                     : "bg-white text-gray-800 border-gray-300"
                 }`}
             >
@@ -152,7 +152,7 @@ const Process = () => {
               className={`cursor-pointer p-6 rounded-2xl border transition-all duration-500 w-full sm:w-[250px] md:w-[280px]
                 ${
                   item.step === activeStep
-                    ? "bg-blue-950 text-white border-blue-700 shadow-xl scale-105"
+                    ? "bg-[#0A2D68] text-white border-[#0A2D68] shadow-xl scale-105"
                     : "bg-white text-gray-800 border-gray-300"
                 }`}
             >

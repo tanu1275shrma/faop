@@ -9,58 +9,65 @@ const WhatKnow = () => {
     },
     {
       title: "Basic English Communication Skills",
-      text: "You should be able to communicate confidently through emails and client calls.",
+      text: "You should be able to communicate confidently through emails and calls.",
     },
     {
-      title: " Laptop & Internet Connection",
-      text: "Investing time wisely , delivering results constantly with dedication.",
+      title: "Laptop & Internet Connection",
+      text: "Investing time wisely, delivering results constantly with dedication.",
     },
     {
       title: "Dedication and Time",
       text: "Review client onboarding, communication, and compliance processes.",
     },
     {
-      title: "Openness to learn",
-      text: "Curiosity that drives continous improvement and learning is the key to grow.",
+      title: "Openness to Learn",
+      text: "Curiosity that drives continuous improvement and learning is the key .",
+    },
+    {
+      title: "Commitment to Excellence",
+      text: "Stay consistent and focused to achieve high-quality results for clients.",
     },
   ];
 
   return (
-    <section className="bg-white text-gray-900 py-20 px-6 sm:px-10 relative overflow-hidden">
+    <section className="bg-[#F9C744] text-gray-900 py-16 sm:py-20 px-6 sm:px-10 relative overflow-hidden">
       {/* Background Accent */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(37,99,235,0.05),transparent_70%)]"></div>
 
-      <div className="relative max-w-3xl mx-auto text-center">
-        <h2 className="text-5xl sm:text-4xl font-bold text-[#061d4d] mb-2">
+      <div className="relative max-w-6xl mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0A2D68] mb-3">
           What You Should Know Before Enrolling
         </h2>
-        <p className="text-blue-600 mb-16 text-sm sm:text-base">
+        <p className="text-blue-950 font-bold mb-12 text-sm sm:text-base">
           Get familiar with key points before you join our program.
         </p>
 
-        {/* Cards Section */}
-        <div className="flex flex-col items-center gap-6">
+        {/* === GRID 3x2 EQUAL CAPSULES === */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
           {points.map((point, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="flex flex-col sm:flex-row items-center gap-6 bg-[#0a2a7a] 
-              rounded-full px-6 sm:px-10 py-3 w-full sm:w-[520px] shadow-[0_6px_20px_rgba(10,42,122,0.2)] 
-              hover:shadow-[0_8px_28px_rgba(10,42,122,0.4)] transition-all duration-300"
+              className="flex items-center gap-4 bg-[#0a2a7a]
+              rounded-full px-6 py-3 w-full max-w-[380px] h-[100px]
+              shadow-[0_4px_16px_rgba(10,42,122,0.2)]
+              hover:shadow-[0_6px_20px_rgba(10,42,122,0.35)]
+              transition-all duration-300"
             >
-              {/* Circular Number */}
-              <div className="flex items-center justify-center w-14 h-14 rounded-full bg-white text-[#0a2a7a] font-bold text-xl shadow-md flex-shrink-0">
+              {/* Number Circle */}
+              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white text-[#0a2a7a] font-bold text-base shadow-md flex-shrink-0">
                 {index + 1}
               </div>
 
-              {/* Text Content */}
-              <div className="text-center sm:text-left text-white">
-                <h3 className="text-lg sm:text-xl text-yellow-400 font-semibold mb-1">
+              {/* Text */}
+              <div className="text-left text-white">
+                <h3 className="text-sm sm:text-base text-yellow-400 font-semibold mb-0.5">
                   {point.title}
                 </h3>
-                <p className="text-sm sm:text-base opacity-90 leading-relaxed">
+                <p className="text-xs sm:text-sm opacity-90 leading-snug">
                   {point.text}
                 </p>
               </div>

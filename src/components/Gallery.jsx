@@ -12,7 +12,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-900 to-gray-950 py-20 px-6 md:px-12 overflow-hidden">
+    <section className="bg-[#0A2D68] py-20 px-6 md:px-12 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-10 text-center md:text-left">
@@ -23,9 +23,8 @@ const Gallery = () => {
             </h2>
             <span className="w-28 h-[2px] bg-[#c7a962]"></span>
           </div>
-          <p className="text-gray-400 mt-3 text-sm md:text-base max-w-lg mx-auto md:mx-0">
-            Explore our achievements and activities throughout the journey of
-            CA.
+          <p className="text-yellow-500 font-bold mt-3 text-sm md:text-base max-w-lg mx-auto md:mx-0">
+            Explore our achievements and activities in the journey of being CA.
           </p>
         </div>
 

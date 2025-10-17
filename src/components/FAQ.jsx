@@ -49,9 +49,9 @@ const FAQ = () => {
   };
 
   return (
-    <section className="bg-[#0b1220] text-white py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#0A2D68] text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-[#7ca8ff] mb-2">
+        <h2 className="text-4xl sm:text-5xl font-extrabold text-[#F9C744] mb-2">
           Got Questions?
         </h2>
         <p className="text-2xl sm:text-3xl font-semibold text-white mb-12">
@@ -70,15 +70,15 @@ const FAQ = () => {
                 onClick={() => toggleFAQ(index)}
                 className={`w-full flex justify-between items-center text-left px-5 py-4 text-[1.05rem] font-medium transition-all ${
                   activeIndex === index
-                    ? "text-[#7ca8ff]"
-                    : "text-gray-100 hover:text-[#7ca8ff]"
+                    ? "text-[#F9C744]"
+                    : "text-gray-100 hover:text-[#F9C744]"
                 }`}
               >
                 <span>{faq.question}</span>
                 {activeIndex === index ? (
-                  <ChevronUp className="text-[#7ca8ff]" />
+                  <ChevronUp className="text-[#F9C744]" />
                 ) : (
-                  <ChevronDown className="text-[#7ca8ff]" />
+                  <ChevronDown className="text-[#F9C744]" />
                 )}
               </button>
 
@@ -100,8 +100,8 @@ const FAQ = () => {
         </div>
 
         <div className="mt-12">
-          <button className="bg-[#3b82f6] hover:bg-[#2563eb] text-white px-6 py-3 rounded-full font-medium transition-all shadow-[0_0_15px_#2563eb66]">
-            Contact Support
+          <button className="bg-yellow-500 text-blue-950 px-6 py-3 rounded-full font-medium transition-all shadow-[0_0_15px_#2563eb66]">
+            Enroll Now
           </button>
         </div>
       </div>

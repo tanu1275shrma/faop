@@ -108,7 +108,7 @@ const Curriculum = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-gray-900 to-gray-950 text-white py-16 px-6 md:px-16">
+    <section className="bg-[#F9C744] text-white py-16 px-6 md:px-16">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
@@ -117,7 +117,7 @@ const Curriculum = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-5xl font-extrabold text-center mb-12 bg-white bg-clip-text text-transparent"
         >
-          Course <span className="text-yellow-500">Curriculum</span>
+          <span className="text-blue-950"> Course Curriculum</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-10">

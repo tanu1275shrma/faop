@@ -37,17 +37,14 @@ const Testimonials = () => {
     setIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
 
   return (
-    <section className="bg-gradient-to-br from-[#dce9fa] to-[#eaf1fb] py-20 px-6 flex justify-center">
-      <div className="max-w-6xl w-full bg-white/50 backdrop-blur-2xl shadow-2xl rounded-3xl p-10 text-center relative overflow-visible border border-white/30">
+    <section className="bg-[#F9C744] py-20 px-6 flex justify-center">
+      <div className="max-w-6xl w-full  backdrop-blur-2xl shadow-2xl rounded-3xl p-10 text-center relative overflow-visible border border-blue-950 ">
         {/* Header */}
         <div className="mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0b2149] mt-2">
             What Our Customers Say
           </h2>
-          <p className="text-gray-600 max-w-xl mx-auto mt-3 text-sm md:text-base">
-            See what FAOP course members have to say about accounting
-            outsourcing practice.
-          </p>
+          <p className="text-gray-600 max-w-xl mx-auto mt-3 text-sm md:text-base"></p>
         </div>
 
         {/* Testimonials */}

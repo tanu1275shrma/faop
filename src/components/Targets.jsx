@@ -43,11 +43,11 @@ const targets = [
 
 const Targets = () => {
   return (
-    <section className="py-20 bg-blue-200">
+    <section className="py-20 bg-[#0A2D68]">
       <div className="max-w-3xl mx-auto px-6 text-center">
         {/* Heading */}
         <motion.h2
-          className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-2 uppercase"
+          className="text-3xl md:text-4xl font-extrabold text-white mb-2 uppercase"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -56,7 +56,7 @@ const Targets = () => {
         </motion.h2>
 
         <motion.p
-          className="text-lg md:text-xl font-semibold text-orange-500 mb-5 uppercase"
+          className="text-lg md:text-xl font-semibold text-yellow-500 mb-5 uppercase"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -94,7 +94,7 @@ const Targets = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          <button className="px-8 py-3 bg-orange-500 text-white font-semibold rounded-md shadow-md hover:bg-orange-600 hover:shadow-lg transition-all duration-300">
+          <button className="px-8 py-3 bg-yellow-500 text-white font-semibold rounded-md shadow-md hover:bg-orange-600 hover:shadow-lg transition-all duration-300">
             LEARN HOW TO REACH THEM
           </button>
         </motion.div>
