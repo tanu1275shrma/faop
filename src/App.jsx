@@ -18,6 +18,8 @@ import WhatKnow from "./components/WhatKnow";
 import Footer from "./components/Footer";
 import Mentor from "./components/Mentor";
 import Ebooks from "./components/Ebooks";
+import Careers from "./components/Carrers";
+import WhoJoin from "./components/WhoJoin";
 
 const App = () => {
   return (
@@ -31,6 +33,8 @@ const App = () => {
       <Process />
       <WhatWillYouGet />
       <Ebooks />
+      <Careers />
+      <WhoJoin />
       <Targets />
       <Curriculum />
       <Mentor />
