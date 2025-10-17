@@ -37,7 +37,7 @@ const WhatKnow = () => {
       <div className="relative max-w-6xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0A2D68] mb-3">
-          What Should Join
+          Who Should Join
         </h2>
         <p className="text-blue-950 font-bold mb-12 text-sm sm:text-base">
           Give your local accounting carrer a kick Start.
